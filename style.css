@@ -152,7 +152,7 @@ body {
     position: relative;
 }
 
-.modal .close {
+.modal .btn-close {
     position: absolute;
     top: 1.6rem;
     right: 1.6rem;
@@ -163,7 +163,7 @@ body {
     transition: transform .3s;
 }
 
-.modal .close:hover{
+.modal .btn-close:hover{
     transform: scale(1.2);
 }
 

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
-    <script src="./main.js" defer></script>
+    <script src="./JavaScript/main.js" defer type="module"></script>
 </head>
 <body>
     <div class="alert-error">
@@ -27,7 +27,7 @@
           <div class="input-wrapper">
             <label class="label" for="weight">Peso (kg)</label>
             <input id="weight" type="text" placeholder="60" />
-            <label class="label" for="height">Altura (m)</label>
+            <label class="label" for="height">Altura (cm)</label>
             <input id="height" type="text" placeholder="165" />
             <button class="button"> Calcular IMC 
               <img src="./assets/arrow.svg" alt="Seta apontando para a direita">
@@ -41,8 +41,8 @@
 
     <div class="modal-wrapper">
       <div class="modal card">
-        <h2 class="title">Seu IMC é de 28</h2>
-        <button class="close"><img src="./assets/close.svg" alt="botão com X para fechar"></button>
+        <span class="title">Seu IMC é de 28</span>
+        <button class="btn-close"><img src="./assets/close.svg" alt="botão com X para fechar"></button>
       </div>
     </div>
     
